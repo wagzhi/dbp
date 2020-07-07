@@ -1,0 +1,20 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://xcdev:3306/xc_mall_20200526?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
+    username: root
+    password: myxc@2018
+    connectionTimeout: 10000
+    idleTimeout: 600000
+    maximumPoolSize: 3
+    minimumIdle: 1
+
+server:
+  #端口号
+  port: 8080
+  tomcat:
+    max-connections: 10000
+
+#mybatis:
+#  config-location: 'mybatis/mybatis-config.xml'
