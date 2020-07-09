@@ -2,9 +2,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://xcdev:3306/xc_mall_20200526?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
+    url: jdbc:mysql://localhost:3306/dbp?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
     username: root
-    password: myxc@2018
+    password: 123456
     connectionTimeout: 10000
     idleTimeout: 600000
     maximumPoolSize: 3
